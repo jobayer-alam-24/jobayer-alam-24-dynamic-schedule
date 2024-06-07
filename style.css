@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #161d31;
+    padding: 40px;
+}
+.routine{
+    margin: 5%;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+th {
+    background-color: rgb(24, 196, 101);
+    color: #ffffff;
+}
+
+td {
+    color: #ffffff;
+    background: rgb(180, 74, 74);
+}
+td:nth-child(1){
+    background-color: rgb(24, 196, 101);
+}
+
+/* Set the width of the "Time" column to 25% */
+th:first-child {
+    width: 25%;
+}
